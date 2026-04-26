@@ -64,6 +64,8 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
+*.db
+*.sqlite3
 
 # Scrapy stuff:
 .scrapy
@@ -216,3 +218,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.venv/
+
+# PyCharm
+.idea/
+*.iml
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Metrics data (optional)
+metrics/*.json
