@@ -1,0 +1,27 @@
+<!--
+home_A.html
+This is Version A of the home page.
+It contains a clearly labeled header and a button that triggers metrics tracking.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Version A</title>
+</head>
+<body>
+    <!-- Distinct styling so the viewer knows this is Version A -->
+    <h1 style="color: blue;">VERSION A</h1>
+
+    <!-- Button that logs a click to the /track endpoint -->
+    <button onclick="sendClick()">Click Me (A)</button>
+
+    <script>
+        // Sends a POST request to /track to log the interaction
+        function sendClick() {
+            fetch('/track', { method: 'POST' });
+        }
+    </script>
+</body>
+</html>
