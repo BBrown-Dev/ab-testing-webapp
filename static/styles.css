@@ -1,0 +1,47 @@
+/*
+styles.css
+Basic styling for the A/B Testing Web App.
+
+This file intentionally keeps styling minimal because:
+- The project emphasizes functionality over design.
+- The goal is simply to make the pages readable and consistent.
+*/
+
+/* Apply a clean, readable font across all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f7f7f7;
+}
+
+/* Center main content */
+h1, p, a, button {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Style the link on the intro page */
+a {
+    font-size: 18px;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the buttons on Version A and B pages */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222;
+}
